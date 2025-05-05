@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vibify</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Vibify</h1>
+
+    <div id="now-playing">
+      <h2>Now Playing</h2>
+      <p id="song-info">Not playing</p>
+      <button id="pause-btn">Pause</button>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <div id="nlp-section">
+      <h2>Make a Playlist</h2>
+      <input type="text" id="prompt-input" placeholder="Describe your vibe...">
+      <button id="generate-btn">Generate</button>
+    </div>
+
+    <div id="recommendations">
+      <h2>Recommendations</h2>
+      <ul id="rec-list"></ul>
+    </div>
+
+    <div id="bottom-links">
+      <button id="settings-btn">⚙️ Settings</button>
+      <button id="logout-btn">🚪 Logout</button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
